@@ -79,6 +79,17 @@ function reverseInt(n){
 console.log(reverseInt(3892))
 console.log(reverseInt(-233))
 
+//Multiply by Math.sign()
+
+function reverseIntMathSign(n){
+    const reversedInt = n.toString().split("").reverse().join("")
+
+    return parseInt(reversedInt) * Math.sign(n)
+}
+
+console.log("Multiply by Math.sign(): ", reverseIntMathSign(-34233))
+console.log("Multiply by Math.sign(): ", reverseIntMathSign(91128))
+
 // Not using Math.sign()
 
 function reverseIntWithoutSign(n){
