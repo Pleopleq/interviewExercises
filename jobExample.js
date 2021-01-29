@@ -3,11 +3,13 @@ Write another function for business logic to List all products rated 4 and above
 List the products by name asc and rating desc.s.
 */
 
-const listOfProducts = [{product: "Shoes", price: 35, rating: 4.2},
-{product: "Coat", price: 32, rating: 4.1},
-{product: "White Hat", price: 21, rating: 4.8},
-{product: "Red hat", price : 22, rating: 3.8},
-{product: "Blue Hat", price: 24, rating: 1.8}]
+const listOfProducts = [
+    {product: "Shoes", price: 35, rating: 4.2},
+    {product: "Coat", price: 32, rating: 4.1},
+    {product: "White Hat", price: 21, rating: 4.8},
+    {product: "Red hat", price : 22, rating: 3.8},
+    {product: "Blue Hat", price: 24, rating: 1.8}
+    ]
 
 async function getProducts(URL){
     try {
